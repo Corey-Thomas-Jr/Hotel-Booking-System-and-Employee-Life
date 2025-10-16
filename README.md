@@ -4,6 +4,6 @@ This program simulates a Hotel Booking System, and you're an employee (Handling 
 The program contains:
 OOP, GUI, and other Frameworks/Libraries
 
-Currently still working on the project
-
 Game Room will have actual, real games I created
+
+Currently still working on the project
