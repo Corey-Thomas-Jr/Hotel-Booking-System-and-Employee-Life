@@ -1,0 +1,22 @@
+DROP DATABASE IF EXISTS Hotel_database;
+CREATE DATABASE Hotel_database
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_0900_ai_ci;
+
+USE Hotel_database;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+--   email VARCHAR(255) NOT NULL UNIQUE,
+  full_name VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Seed data (example users)
+INSERT INTO users (full_name) VALUES  -- email for the first parameter
+-- ('alice@example.com','Alice Adams'),
+-- ('bob@example.com','Bob Brown');
+('John Doe'),
+('Jane Smith'),
+('Michael Johnson'),
+('Emily Davis');
